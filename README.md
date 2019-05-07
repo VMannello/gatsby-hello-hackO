@@ -10,10 +10,10 @@
 Kick off your project with this default HackOregon gatsby boilerplate.
 
 Travis will need to have these variables defined:
- - `AWS_ACCESS_KEY_ID` : ID of site deployer (should match what was used in CloudFormation)
- - `AWS_SECRET_ACCESS_KEY` : Secret Key for user
- - `AWS_DEPLOY_BUCKET` : Bucket name to deploy files to
- - `SITE_HOSTNAME` : Hostname with protocol for site e.g. `https://www.hackoregon.com`
+ - `AWS_ACCESS_KEY_ID`: ID of site deployer (should match what was used in CloudFormation)
+ - `AWS_SECRET_ACCESS_KEY`: Secret Key for user
+ - `AWS_DEPLOY_BUCKET`: Bucket name to deploy files to
+ - `SITE_HOSTNAME`: Hostname with protocol for site e.g. `https://www.hackoregon.com`
 
 ## 🚀 Quick start
 
@@ -23,7 +23,7 @@ Travis will need to have these variables defined:
 
     ```sh
     # create a new Gatsby site using the Hack-O starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    gatsby new my-default-starter https://github.com/VMannello/gatsby-hello-hackO/
     ```
 
 1.  **Start developing.**
