@@ -13,7 +13,7 @@ Travis will need to have these variables defined:
  - `AWS_ACCESS_KEY_ID`: ID of site deployer (should match what was used in CloudFormation)
  - `AWS_SECRET_ACCESS_KEY`: Secret Key for user
  - `AWS_DEPLOY_BUCKET`: Bucket name to deploy files to
- - `SITE_HOSTNAME`: Hostname with protocol for site e.g. `https://www.hackoregon.com`
+ - `SITE_HOSTNAME`: Hostname with protocol for site bash escaped e.g. `https:\/\/www.hackoregon.org`
 
 ## 🚀 Quick start
 
