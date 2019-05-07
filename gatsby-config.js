@@ -11,6 +11,7 @@ module.exports = {
                 bucketName: process.env.AWS_DEPLOY_BUCKET || '',
                 protocol: siteAddress.protocol.slice(0, -1),
                 hostname: siteAddress.hostname,
+                acl: null,
             },
         }, {
             resolve: `gatsby-plugin-canonical-urls`,
